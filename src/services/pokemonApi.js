@@ -25,9 +25,7 @@ export async function getRandomPokemon() {
         image: data.sprites.other["official-artwork"].front_default,
 
 
-        types: data.types.map(
-            item => item.type.name
-        ),
+        type: data.types[0].type.name,
 
 
         height: data.height,
