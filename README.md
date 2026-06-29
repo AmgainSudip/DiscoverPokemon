@@ -55,17 +55,9 @@ The following additional features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://github.com/AmgainSudip/flashcard/blob/main/src/walkthrough.gif"/>
+<img src="https://github.com/AmgainSudip/DiscoverPokemon/blob/main/src/walkthrough.gif"/>
 
 GIF created with LiceCap
-
-## Notes
-
-The main challenge encountered while building this project was working with an unfamiliar API and understanding how to parse the returned JSON data. The PokeAPI response contained nested objects and arrays, especially for Pokemon types and images.
-
-Another challenge was implementing the ban list functionality. The application needed to continue fetching Pokemon until it found one that did not contain any banned attributes. This required adding filtering logic after each API request.
-
-Managing multiple React states for the current Pokemon, ban list, loading state, and history was also a challenge. React components were separated to make the application easier to maintain and understand.
 
 ## License
 
